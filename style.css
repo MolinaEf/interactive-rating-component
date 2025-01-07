@@ -66,7 +66,7 @@ h1{
     color: var(--white);
     font-size: 1.5em;
     font-weight: 500;
-    margin-bottom: 1em;
+    margin-bottom: 0.6em;
 }
 
 .rating-request{
@@ -87,7 +87,7 @@ h1{
 }
 
 .logo{
-    transform: translateX(1px);
+    transform: translateX(1px) scale(0.85);; 
 }
 
 .ratings{
@@ -97,8 +97,8 @@ h1{
     font-family: Overpass, sans-serif;
     font-size: 0.9em;
     font-weight: 700;
-    height: 2.8em;
-    width: 2.8em;
+    height: 3em;
+    width: 3em;
     border-radius: 50%;
     transition: background-color 0.5s ease , transform 0.2s ease;
 }
@@ -112,6 +112,8 @@ form{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     place-items: center;
+    margin-top: 1.1em;
+    gap: 1.1em;
 }
 
 .submit-btn{
@@ -159,7 +161,7 @@ h2{
     color: var(--white);
     font-weight: 500;
     font-size: 1.5em;
-    margin-bottom: 0.1em;
+    margin-bottom: 0.6em;
 }
 
 .thank-you-text{
